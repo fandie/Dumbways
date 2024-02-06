@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="asset/brandwhite.png" alt="Logo">
+            </a>
+        </div>
+        <div class="navbar-center">
+            <a href="index.html" class="nav-home">Home</a>
+            <a href="contact.html" class="nav-project">My Project</a>
+        </div>
+        <div class="navbar-right">
+            <button class="contact-btn">Contact Me</button>
+        </div>
+    </nav>
+
+    <div class="contact">
+        <h2>GET IN TOUCH</h2>
+
+        <form>
+        <label for="nama">Nama:</label>
+        <input type="text" placeholder="Nama" required>
+
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Email" required>
+
+        <br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" placeholder="Phone" required>
+
+        <br>
+
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject" required>
+            <option value="general">..........</option>
+            <option value="support">Ngobrol</option>
+            <option value="feedback">Feedback</option>
+        </select>
+
+        <br>
+
+        <label for="message">Your Message:</label>
+        <textarea rows="4" required></textarea>
+
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+    
+</body>
+</html>
